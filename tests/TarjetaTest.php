@@ -15,4 +15,6 @@ class EstacionTest extends TestCase {
         $tarjeta->cargarSaldo(50);
         $this->assertEquals($tarjeta->saldo(), 50);
     }
+    public function testTransporte() {
+        
 }
